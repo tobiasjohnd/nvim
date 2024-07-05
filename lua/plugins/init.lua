@@ -1,8 +1,8 @@
 return {
     {"github/copilot.vim"},
     {"editorconfig/editorconfig-vim"},
-    { 'nvim-telescope/telescope-fzf-native.nvim', 
-	build = 'make' 
+    { 'nvim-telescope/telescope-fzf-native.nvim',
+	build = 'make'
     },
     {"luukvbaal/nnn.nvim",
 	init = function() require("nnn").setup() end
