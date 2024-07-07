@@ -1,4 +1,4 @@
---- Wish list: ---
+-- Wish list: ---
 -- set up nvimlsp
     -- lsp zero
 -- explore treesitter memes a little more
@@ -12,6 +12,7 @@
 -- SETTINGS --------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
+vim.g.lazydev_enabled = true
 vim.g.mapleader=' '
 
 vim.opt.number=true
