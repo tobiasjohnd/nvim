@@ -79,7 +79,6 @@ return {
                     },
                 }
             },
-            { "j-hui/fidget.nvim", opts = {} }, --TODO: find a better home fr this
         }
     },
 }
