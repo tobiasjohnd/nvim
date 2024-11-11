@@ -59,6 +59,8 @@ vim.keymap.set("n", "<leader>x", ":!<Space>")
 vim.keymap.set("n", "<leader><leader>", ":w<CR>")
 vim.keymap.set("n", "<leader>so", ":source %<CR>")
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+vim.keymap.set("n", ":" , ";")
+vim.keymap.set("n", ";", ":")
 
 -- Move selected line / block of text in visual mode
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
