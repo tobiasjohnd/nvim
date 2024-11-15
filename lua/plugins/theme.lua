@@ -1,18 +1,13 @@
 return {
     {
-        "Shatur/neovim-ayu",
+        "shaunsingh/nord.nvim",
         config = function()
-            local ayu = require("ayu")
-            ayu.setup({
-                mirage =  false,
-                overrides = {
-                    Normal = { bg = "None"},
-                }
-            })
-            ayu.colorscheme()
+            vim.g.nord_disable_background = true
+            vim.g.nord_italic = false
+            vim.g.nord_uniform_diff_background = true
+            require('nord').set()
         end
     },
-
     {
         'nvim-lualine/lualine.nvim',
         dependencies = { 'nvim-tree/nvim-web-devicons' },
@@ -20,7 +15,7 @@ return {
             require('lualine').setup {
                 options = {
                     icons_enabled = false,
-                    theme = 'ayu_dark',
+                    theme = 'nord',
                     component_separators = { left = '', right = ''},
                     section_separators = { left = '', right = ''},
                     disabled_filetypes = {
